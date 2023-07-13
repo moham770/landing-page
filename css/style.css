@@ -100,6 +100,10 @@ header{
 .img-header{
   width: 100%
 }
+.img-header{
+  width: 50%;
+  margin: auto;
+}
 .images img{
     width: 70px;
     cursor: pointer;
