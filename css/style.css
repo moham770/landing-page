@@ -98,13 +98,12 @@ header{
     max-width: 400px;
 }
 .img-header{
-  width: 400px;
+  width: 100%
 }
 .images img{
     width: 70px;
     cursor: pointer;
     transition: 0.5s;
-    margin: 0 0px;
 
 }
 .images img:hover{
@@ -121,12 +120,15 @@ header{
         
     
         text-align: center;
-
-
+    }
+    .img-header{
+      width: 50%;
+      margin: auto;
     }
     .header-text{
         margin-bottom: 40px;
         text-align: center;
+        margin: auto;
     }
     .images img{
         width: 50px;
